@@ -1,0 +1,68 @@
+
+.menu a{
+    color: black;
+    text-decoration: none;
+}
+.menu a:hover{
+    color:#F04080;
+    padding: 10px;
+}
+li{
+    display: inline;
+    list-style: none;
+}
+.nav{
+  
+    
+    padding: top 0;
+}
+.logo{
+    height: 65px;
+    background-color:#407BFF;
+    border-radius:0px 100px 100px 0px;
+}
+.text{
+    font-family: Noto Serif TC;
+    font-size: large;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+     color: #F04080;
+   
+}
+.blue{
+    height: auto;
+    width: 100%;
+    background-color: #407BFF;
+}
+.footerh{
+    padding-top: 2cap;
+    color:white;
+    text-align: center;
+    
+}
+.details{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3cap;
+    padding-bottom: 2cap;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.social img{
+    margin:10px;    
+    padding-bottom: 3cap;
+    }
+  .white{
+    text-align: center;
+    padding-top: 3cap;
+    padding-bottom: 2cap;
+  }  
+  footer{
+    display: flex;
+    flex-direction: column;
+  }
