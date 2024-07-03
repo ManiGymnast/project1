@@ -28,8 +28,12 @@ li{
 .contact{
     display: flex;
     flex-direction: column;
+    justify-content: right;
      color: #F04080;
    
+}
+.contact h6{
+    text-align: right;
 }
 .blue{
     height: auto;
@@ -66,3 +70,70 @@ li{
     display: flex;
     flex-direction: column;
   }
+  .vision{
+    background-image:url(./image/BK\ eclipse.svg);
+    background-repeat: no-repeat;
+  }
+  @media screen and (min-width: 1440px) {
+    .vision {
+      background-image:url(./image/BK\ eclipse.svg);
+      background-repeat:round;
+    }
+  }
+
+  .vision_s1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  .container_box{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1034px;
+    height: 449px;
+    }
+    .vision__content{
+      width: 450px;
+      height: 145px;
+    background-color: #D8B8EB;
+     box-shadow: 15px 15px 4px 0px #0000005C;
+     display: flex;
+     align-items: center;
+    }
+   .partner{
+    display: flex;
+    justify-content: space-around;
+    background: #FFFFFF80;
+
+   }
+   .partner__s1{
+  width: 300px;
+height: 300px;
+padding-top: 20px;
+
+   }
+   .partner__s3{
+    width: 300px;
+    height: 300px;
+    
+   }
+   .partner__s3>img{
+    width: 300px;
+    height: 300px;
+    padding-bottom: 5cap;
+    
+   }
+   .partner__s2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+   }
+   .banner{
+  display:flex;
+  justify-content: center;
+
+   }
