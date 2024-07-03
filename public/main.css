@@ -20,6 +20,13 @@ li{
     height: 65px;
     background-color:#407BFF;
     border-radius:0px 100px 100px 0px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+   
+}
+.logo>img{
+  padding-left: 2cap;
 }
 .text{
     font-family: Noto Serif TC;
