@@ -70,7 +70,10 @@ li{
     display: flex;
     flex-direction: column;
   }
-  
+  .vision{
+    background-image:url(./image/BK\ eclipse.svg);
+    background-repeat: no-repeat;
+  }
 
 
   .vision_s1{
@@ -92,5 +95,7 @@ li{
       height: 145px;
     background-color: #D8B8EB;
      box-shadow: 15px 15px 4px 0px #0000005C;
-     
+     display: flex;
+     align-items: center;
     }
+   
