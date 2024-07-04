@@ -139,8 +139,27 @@ padding-top: 20px;
     justify-content: flex-end;
     align-items: center;
    }
-   .banner{
-  display:flex;
-  justify-content: center;
-
+  .banner{
+ display: flex;
+ justify-content: center;
+ max-height: 600px;
+ position: relative;
+ margin-bottom: 2cap;
+   }
+   .he{
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+  
+   }
+   .he>h3{
+    font-family:Noto Serif TC;
+    font-weight:lighter;
+   }
+ 
+   .ad{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+  
    }
