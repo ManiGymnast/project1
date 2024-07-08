@@ -131,7 +131,7 @@ li{
         
         flex-wrap: wrap;
       
-        overflow:scroll;
+        overflow:auto;
         gap: 2cap;
         }
         .banner>img{
@@ -289,6 +289,7 @@ background-repeat: no-repeat;
 display: flex;
 justify-content: center;
 background-position: center;
+
 }
 .g{
 
@@ -303,4 +304,22 @@ background-position: center;
             #ff6b08, #cf23cf, #eedd44); 
     -webkit-text-fill-color: transparent; 
     -webkit-background-clip: text;
+}
+.signup{
+  border:1px solid none;
+  width: 400px;
+  height: 500px;
+
+color:#407BFF;
+border-radius: 20px;
+background-size: cover;
+background-position: center;
+overflow: hidden;
+backdrop-filter: blur(10px);
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+::placeholder {
+  color:black;
 }
